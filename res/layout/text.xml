@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <EditText
+        android:id="@+id/etData_textplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a Command"
+        android:textSize="20sp"
+        android:password="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/btnResults_textplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="Try Command"
+           />
+
+        <ToggleButton
+            android:id="@+id/tbOnAndOff_textplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:checked="true"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResults_textplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Invalid" 
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

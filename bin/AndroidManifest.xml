@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.multiple.applications"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.multiple.applications.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.multiple.applications.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.multiple.applications.Counter"
+            android:label="@string/title_activity_counter" >
+        </activity>
+        <activity
+            android:name="com.multiple.applications.TextPlay"
+            android:label="@string/title_activity_textplay" >
+        </activity>
+        <activity
+            android:name="com.multiple.applications.EmailActivity"
+            android:label="@string/title_activity_email_actvity" >
+        </activity>
+        <activity
+            android:name="com.multiple.applications.PhotoActivity"
+            android:label="@string/title_activity_photo"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

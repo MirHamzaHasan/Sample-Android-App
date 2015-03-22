@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView_Photo"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/splash" />
+
+    <Button
+        android:id="@+id/button2_Photo"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1_Photo"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView_Photo"
+        android:text="Button" />
+
+    <ImageButton
+        android:id="@+id/imageButton1_Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_Photo"
+        android:layout_toRightOf="@+id/button2_Photo"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

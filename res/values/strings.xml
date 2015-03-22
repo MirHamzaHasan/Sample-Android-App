@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MilkShakeApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_counter">Counter</string>
+    <string name="title_activity_textplay">Text Play</string>
+    <string name="title_activity_email_actvity">Send Email</string>
+    <string name="title_activity_photo">Photo App</string>
+
+</resources>
