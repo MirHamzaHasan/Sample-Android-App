@@ -1,2 +1,2 @@
-# Sample-Android-App
-Sample Android Application
+Simple android Application 
+Contain some samples code for different activitis Or services
